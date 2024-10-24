@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="shadrack ocran">
+    <meta name="description" content="HTML Programming">
+    <link rel="icon" href="Wikipedia-Logo" type="image/x-icon">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Data Structures and Algorithms</title>
+    <img src="images/Wikipedia-Logo.png" alt="wiki" width="250" height="150">
+    <style>
+        .page-number {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      </style>
+</head>
+<body>
+
+    <button>
+        Home
+    </button>
+    <button>
+        Contact Us
+    </button>
+
+    <button>
+        About Us
+
+    </button>
+
+    <div style="text-align: center; margin-top: 10px;">
+        <form action="/search" method="get" style="display: inline-block;">
+            <input type="search" id="search" name="query" placeholder="Search..." style="padding: 8px; width: 300px;">
+            <button type="submit" style="padding: 8px;">Search</button>
+        </form>
+    </div>
+
+    <a href="Index.html">Main Page</a>
+    <a href="Talk">Talk</a>
+
+    <div style="position: absolute; border-top-left-radius: 10px; right: 10px;">
+        <a href="Read">Read</a>
+        <a href="/View-Source" style="margin-right: 15px;">View Source</a>
+        <a href="/View-History">View History</a>
+        <a href="Tools">Tools</a>
+        
+    </div>
+
+    <div style="position: absolute; top: 10px; right: 10px;">
+        <a href="Donate">Donate</a>
+        <a href="/create-account" style="margin-right: 15px;">Create Account</a>
+        <a href="/login">Login</a>
+        
+    </div>
+<body>
+    <header>
+        <h1>Data Structures and Algorithms</h1>
+    </header>
+    <main>
+        <section>
+            <h2>What are Data Structures?</h2>
+            <p>In computer science, a data structure is a data organization and storage format that is usually chosen for efficient access to data. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data,[4] i.e., it is an algebraic structure about data..</p>
+            <p>Data structures serve as the basis for abstract data types (ADT). The ADT defines the logical form of the data type. The data structure implements the physical form of the data type.
+
+                Different types of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks. For example, relational databases commonly use B-tree indexes for data retrieval, while compiler implementations usually use hash tables to look up identifiers.
+                
+                Data structures provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexing services. Usually, efficient data structures are key to designing efficient algorithms. Some formal design methods and programming languages emphasize data structures, rather than algorithms, as the key organizing factor in software design. Data structures can be used to organize the storage and retrieval of information stored in both main memory and secondary memory. </p>
+
+                <figure>
+                    <img src="images/Hash_tab.png" alt="Hash_tab" width="400" height="200" loading="lazy">
+            
+                    <figcaption>
+                        <em>A data structure known as a hash table.</em>
+                    </figcaption>
+                    </figure>  
+            <dl>
+                <dt><strong>Array</strong></dt>
+                <dd>A collection of elements of the same data type stored in contiguous memory locations</dd>
+                <dt><strong>Linked List</strong></dt>
+                <dd>A dynamic collection of elements, where each element points to the next element</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>What are Algorithms?</h2>
+            <p>In mathematics and computer science, an algorithm is a finite sequence of mathematically rigorous instructions, typically used to solve a class of specific problems or to perform a computation.[1] Algorithms are used as specifications for performing calculations and data processing. More advanced algorithms can use conditionals to divert the code execution through various routes (referred to as automated decision-making) and deduce valid inferences (referred to as automated reasoning).</p>
+            <p>In contrast, a heuristic is an approach to solving problems that do not have well-defined correct or optimal results. For example, although social media recommender systems are commonly called "algorithms", they actually rely on heuristics as there is no truly "correct" recommendation.
+
+                As an effective method, an algorithm can be expressed within a finite amount of space and time and in a well-defined formal language for calculating a function. Starting from an initial state and initial input (perhaps empty), the instructions describe a computation that, when executed, proceeds through a finite number of well-defined successive states, eventually producing "output" and terminating at a final ending state. The transition from one state to the next is not necessarily deterministic; some algorithms, known as randomized algorithms, incorporate random input. </p>
+            <pre>
+                <code>
+                    function bubbleSort(arr) {
+                        var n = arr.length;
+                        (var i = 0; i &lt; n-1; i++) {
+                            (var j = 0; j &lt; n-i-1; j++) {
+                                if (arr[j] > arr[j+1]) {
+                                    var temp = arr[j];
+                                    arr[j] = arr[j+1];
+                                    arr[j+1] = temp;
+                                }
+                            }
+                        }
+                        return arr;
+                    }
+                </code>
+            </pre>
+        </section>
+    </main>
+    <figure>
+        <img src="images/GCD.png" alt="GCD" width="400" height="200" loading="lazy">
+        <figcaption>
+            <em>Flowchart of using successive subtractions to find the greatest common divisor of number r and s</em>
+        </figcaption>
+        </figure> 
+    
+    <footer>
+        <style>
+            .page-number {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+          </style>
+          
+          <div class="Page3" >
+            <p>Page3</p>
+            
+          </div>
+
+          
+
+          
+
+          <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Wikipedia</a> &gt;&gt;&gt;
+            </p>
+            <p>
+                <a href="#">back to top</a>
+                
+    </footer>
+</body>
+</html
